@@ -4,7 +4,7 @@ substitutions:
   _SERVICE_NAME: inventory-api
   _REPOSITORY: cloud-run-source-deploy
   # Define the full image name once to avoid repetition and errors
-  _IMAGE_NAME: us-west1-docker.pkg.dev/qwiklabs-gcp-04-7636a1d7ec13/inventory-app/inventory-app
+  _IMAGE_NAME: us-west1-docker.pkg.dev/qwiklabs-gcp-04-7636a1d7ec13/inventory-app/cloud-run-source-deploy
 
 steps:
   ### Step 1: Build the Docker image
